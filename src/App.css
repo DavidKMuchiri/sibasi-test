@@ -1,0 +1,8 @@
+.App{
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9) ), url('./Pictures/background.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    /* padding: 0px 20px; */
+    overflow-x: hidden;
+}

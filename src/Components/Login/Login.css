@@ -1,0 +1,66 @@
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(255, 255, 255); */
+    min-height: 100vh;
+    /* padding: 0px 10px; */
+}
+
+.login{
+    border: 1px solid rgba(0, 255, 255, 0.432);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.05);
+    max-width: max-content;
+    padding: 20px 50px;
+    box-shadow: 0px 0px 5px white;
+    margin: 10px;
+}
+.login h1{
+    color: white;
+    font-size: 250%;
+}
+
+.loginEmail input, .loginPassword input{
+    /* min-width: 100%; */
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    /* font-weight: 600; */
+    font-size: 101%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+.loginEmail input:focus, .loginPassword input:focus{
+    border-bottom: 2px solid aqua;
+
+}
+
+.login button{
+    outline: 0;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 101%;
+    margin: 20px 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.login .enabledButton:hover{
+    transform: scale(1.05);
+
+}
+.login .enabledButton:active{
+    transform: scale(0.95);
+}
+

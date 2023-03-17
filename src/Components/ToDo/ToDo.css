@@ -1,0 +1,108 @@
+.toDoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.toDo{
+    color: white;
+    text-align: center;
+    max-width: max-content;
+    height: 100%;
+}
+.toDoAdd input{
+    min-width: 250px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    outline: 0;
+    border: 0;
+    border: 1px solid rgb(255, 255, 255);
+    /* font-weight: 600; */
+    font-size: 101%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.3s ease-in-out;
+    border-radius: 5px 5px 5px 5px;
+}
+.toDoAdd input:focus{
+    border: 1px solid aqua;
+}
+
+.toDoAdd button{
+    outline: 0;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 101%;
+    cursor: pointer;
+    margin: 0px 5px;
+    transition: 0.2s ease-in-out;
+}
+.toDoAdd button:hover{
+    transform: scale(1.05);
+
+}
+.toDoAdd button:active{
+    transform: scale(0.95);
+}
+.toDoList div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+
+}
+.toDoList div p{
+    padding: 8px 0px;
+    margin: 0;
+    border: 1px solid black;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+}
+.notDone{
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+.notDone:hover{
+    background-color: rgba(146, 146, 146, 0.2);
+
+}
+.toDoList div p:active{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.toDoList div button{
+    outline: 0;
+    padding: 8px 15px;
+    height: 100%;
+    background-color: aqua;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 101%;
+    cursor: pointer;
+    margin: 0px 2px;
+    transition: 0.2s ease-in-out;
+}
+
+.toDoList div button:hover{
+    transform: scale(1.05);
+
+}
+.toDoList div button:active{
+    transform: scale(0.95);
+}
+
+.done{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8);
+
+
+}
