@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sibasi-test/static/css/main.6376e06d.css",
+    "main.js": "/sibasi-test/static/js/main.03ebec53.js",
+    "static/js/787.107e2dcb.chunk.js": "/sibasi-test/static/js/787.107e2dcb.chunk.js",
+    "static/media/background.jpg": "/sibasi-test/static/media/background.5469a476aa3e0fde109e.jpg",
+    "static/media/reality.jpg": "/sibasi-test/static/media/reality.93b003a2b86be2b2a614.jpg",
+    "index.html": "/sibasi-test/index.html",
+    "main.6376e06d.css.map": "/sibasi-test/static/css/main.6376e06d.css.map",
+    "main.03ebec53.js.map": "/sibasi-test/static/js/main.03ebec53.js.map",
+    "787.107e2dcb.chunk.js.map": "/sibasi-test/static/js/787.107e2dcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6376e06d.css",
+    "static/js/main.03ebec53.js"
+  ]
+}
