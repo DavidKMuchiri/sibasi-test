@@ -67,6 +67,7 @@
         height: 400px;
         padding: 20px 20px;
         background-color: rgba(0, 0, 0, 0.7);
+        transition: 0.3s ease-in-out;
     }
 
 
